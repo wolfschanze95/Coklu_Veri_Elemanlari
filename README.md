@@ -67,3 +67,48 @@ kullanımı:
 
 liste=[baslangic:bitis:artis_miktari]
 
+
+
+# DEMET KAVRAMI
+Listeler gibi çoklu veri depolamamızı sağlar.
+
+
+
+Değişmeyen veriler tanımlanır.(Elemanları değişmez)
+
+
+
+Parantez kullanılır.
+
+
+
+Elamanlara ulaşmak için indeks kullanılır.
+
+
+
+# SÖZLÜK KAVRAMI
+Anahtar-Değer ilişkisine göre yapı oluşturmamızı sağlayan yapılardır.
+
+
+Süslü parantez kullanılır.
+
+
+Değer herhangi bir türden olabilir
+
+
+Anahtarla değer arasına ":" konur.
+
+
+Sözlük anahtarına ulaşma:
+
+
+a={"username":"eralp","password":"12345"
+
+print(a["username"]) # eralp çıktısını verir.
+
+
+Değiştirme:
+
+a["password"]="54321"
+
+print(a) # {'username': 'ellap', 'password': '54321'} çıktısını verir
