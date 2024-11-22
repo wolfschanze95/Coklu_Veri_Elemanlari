@@ -36,3 +36,25 @@ print(dilim)
 
 kelime=input("lütfen kelime gir")
 print(kelime==kelime[::-1])
+
+
+
+
+
+
+
+
+a1=(1,2,3,4,5)
+A1=a1[2]
+
+
+
+
+api={"username":"ellap","password":"12345"}
+db=["ellap","12345"]
+print(api["username"]==db[0])
+
+
+api["password"]="yetmişbir"
+print(api)
+
